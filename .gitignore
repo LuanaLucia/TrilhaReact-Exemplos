@@ -1,0 +1,24 @@
+Semana-2/escolha-plano/node_modules
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+./Semana-2/escolha-plano/node_modules
+./Semana-2/escolha-plano/.pnp
+./Semana-2/escolha-plano/.pnp.js
+
+# testing
+./Semana-2/escolha-plano/coverage
+
+# production
+./Semana-2/escolha-plano/build
+
+# misc
+./Semana-2/escolha-plano/.DS_Store
+./Semana-2/escolha-plano/.env.local
+./Semana-2/escolha-plano/.env.development.local
+./Semana-2/escolha-plano/.env.test.local
+./Semana-2/escolha-plano/.env.production.local
+
+./Semana-2/escolha-plano/npm-debug.log*
+./Semana-2/escolha-plano/yarn-debug.log*
+./Semana-2/escolha-plano/yarn-error.log*

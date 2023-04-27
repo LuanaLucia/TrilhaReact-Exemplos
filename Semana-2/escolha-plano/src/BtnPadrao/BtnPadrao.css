@@ -1,0 +1,24 @@
+#btnPadrao{
+    border: solid 2px #000;
+    background-color:transparent;
+    padding: 5px 20px;
+    margin: 10px 15px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+  }
+  #btnPadrao:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ebd3ff52;
+    transition: all .5s;
+  }
+  
+  #btnPadrao:hover:after{
+    width: 100%;
+  }
