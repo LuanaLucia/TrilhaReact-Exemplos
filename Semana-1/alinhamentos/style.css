@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.azul{
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    background-color: rgb(156, 156, 255);
+}
+.vermelho{
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    background-color: rgb(255, 139, 139);
+}
+.amarelo{
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    background-color: rgb(247, 255, 139);
+}
+
+.principal{
+    width: 500px;
+    height: 200px;
+    background-color:thistle;
+    display: flex;
+}
+
+.centro-horizontal{
+    justify-content: center;
+}
+.esquerda-horizontal{
+    justify-content:end;
+}
+.centro-vertical{
+    align-items: center;
+}
+.inferior{
+    align-items: end;
+}
