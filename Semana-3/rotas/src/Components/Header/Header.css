@@ -1,0 +1,21 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+li{
+    list-style: none;
+    width: 150px;
+    height: 70px;
+    margin: 20px 10px;
+    background-color: #727152;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+}
